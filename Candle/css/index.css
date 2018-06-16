@@ -1,0 +1,42 @@
+.candle{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	width: 40px;
+	margin: auto;
+}
+.candle-body{
+	width: 40px;
+	height: 120px;
+	background-color: #E90018;
+	border-radius: 0 0 40px 40px/0 0 16px 16px;
+	box-shadow: inset 8px 0 12px rgba(0, 0, 0, .1),inset -8px 0 12px rgba(0, 0, 0, .1);
+	position: relative;
+}
+/* .candle-body::before{
+	content: "";
+	position: absolute;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #EF4D65;
+	top: -8px;
+	left: 0;
+	right: 0;
+	box-shadow: inset 0 0 20px #E90018,inset 0 0 5px rgba(0, 0, 0, .2),0 1px rgba(0, 0, 0, .5),inset 0 2px 3px rgba(0, 0, 0, .4);
+}
+.candle-body::after{
+	content: "";
+	display: block;
+	width: 4px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -20px;
+	margin: auto;
+	background-color: #fff;
+	background-image: linear-gradient(to bottom,#311,#edd3d1 70%,#edd3d1);
+	border-radius: 0 0 4px 4px/0 0 2px 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+} */
